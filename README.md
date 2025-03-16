@@ -1,13 +1,14 @@
 # AnimeShowsDataCleaning
 GWC Data Cleaning Project 
 Anime Data Cleaning Script
-Description
+**Description**
 This Python script cleans data from a CSV file containing information about anime shows. It removes missing values, duplicates, and incomplete entries (anime with fewer than 5 episodes), preparing the data for further analysis.
 
-Requirements
+**Requirements**
 Python 3.x
 pandas library (install with pip install pandas)
-Steps Performed
+
+**Steps Performed**
 Import pandas: We use pandas to handle the data.
 Load Data: Reads the CSV file into a DataFrame (df).
 Show Unclean Data: Prints the raw data to the console.
@@ -16,8 +17,9 @@ Handle Missing Data: Removes rows with missing episode numbers.
 Remove Duplicates: Removes duplicate anime names.
 Filter Incomplete Shows: Removes anime with fewer than 5 episodes.
 Show Cleaned Data: Prints the final cleaned data.
-How to Use
-Prepare Your CSV File: Ensure your file has columns for Anime Name and Episodes.
+
+**How to Use**
+Prepare Your CSV File: Ensure your file has column titles.
 Update File Path: Modify this line in the script to point to your file:
 python
 Copy code
